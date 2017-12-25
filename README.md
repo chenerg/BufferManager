@@ -1,3 +1,0 @@
-# BufferManager
-
-### Advanced Database Homework
