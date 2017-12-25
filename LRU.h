@@ -11,7 +11,7 @@
 
 
 struct Frame{
-    Frame(int id){
+    explicit Frame(int id){
         frame_id = id;
         next = nullptr;
         prev =nullptr;
