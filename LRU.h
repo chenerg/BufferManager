@@ -26,8 +26,10 @@ public:
     explicit LRU(int size_);
     void Insert(int frame_id);
     void Visit(int fram_id);
+    void Remove(int fram_id);
     int GetFrame();
     bool IsFull();
+    bool IsEmpty();
     void Print();
 private:
     int size;
