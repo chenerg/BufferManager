@@ -8,7 +8,7 @@
 #define FRAMESIZE 4096
 #define PAGESIZE 4096
 #define MAXPAGES 500000
-#define DEFBUFSIZE 1024
+#define DEFBUFSIZE 1024*2
 
 struct bFrame {
     char field[FRAMESIZE];
